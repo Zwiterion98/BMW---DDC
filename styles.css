@@ -5,20 +5,17 @@
 }
 
 @font-face {
-    font-family: SAHAR-REGULAR;
-    src: url("./fonts/SAHAR-REGULAR.woff");
+    font-family: BMW-REGULAR;
+    src: url("./fonts/BMWTypeNextTT-Regular.woff");
 }
 @font-face {
-    font-family: SAHAR-BOLD;
-    src: url("./fonts/SAHAR-BOLD.woff");
+    font-family: BMW-BOLD;
+    src: url("./fonts/BMWTypeNextTT-Bold.woff");
 }
+
 @font-face {
-    font-family: SAHAR-HEAVY;
-    src: url("./fonts/SAHAR-HEAVY_0.woff");
-}
-@font-face {
-    font-family: SAHAR-THIN;
-    src: url("./fonts/SAHAR-THIN.woff");
+    font-family: BMW-THIN;
+    src: url("./fonts/BMWTypeNextTT-Thin.woff");
 }
 
 body{
@@ -55,7 +52,7 @@ body{
 
 a{
     border: white solid 3px;
-    font-family: "SAHAR-REGULAR";
+    font-family: "BMW-REGULAR";
     font-size: 2em;
     width: 28vw;
     padding-top: 0.5em;
@@ -78,23 +75,25 @@ a:hover #texto1{
 }
 
 #infoBoton{
-    font-family: "SAHAR-REGULAR";
+    font-family: "BMW-REGULAR";
     font-size: 1em;
 }
 
 h1{
-    font-family: "SAHAR-THIN";
-    font-size: 3em;
+    font-family: "BMW-THIN";
+    font-size: 6vh;
+    line-height: 5.5vh ;
 }
 
 b{
-    font-family: "SAHAR-BOLD";
+    font-family: "BMW-BOLD";
 }
 
 #topText{
     padding-left: 5vw;
-    font-family: "SAHAR-REGULAR";
+    font-family: "BMW-REGULAR";
     font-size: 1.3em;
+    max-width: 30vw;
 }
 
 #divBoton{
@@ -102,6 +101,10 @@ b{
 }
 
 @media only screen and (max-width: 1000px) {
+    body{
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
     #topSection{
         height: 50%;
         padding-top: 20%;
@@ -120,20 +123,21 @@ b{
         justify-content: space-around;
     }
     h1{
-        font-family: "SAHAR-THIN";
+        font-family: "BMW-THIN";
         font-size: 5vh;
-        text-align: center;
+        text-align: left;
     }
     #topText{
         padding-left: 0vw;
-        font-family: "SAHAR-REGULAR";
+        font-family: "BMW-REGULAR";
         font-size: 2vh;
+        max-width: 80vw;
         text-align: center;
     }
 
     a{
         border: white solid 3px;
-        font-family: "SAHAR-REGULAR";
+        font-family: "BMW-REGULAR";
         font-size: 3vh;
         width: 80vw;
         padding-top: 0.5em;
